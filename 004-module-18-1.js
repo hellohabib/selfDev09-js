@@ -73,6 +73,105 @@ while(i<=10){
 }
 
 এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+/*
+-------------------------------------------------
+** Retrive items from an Array using For-Loop
+-------------------------------------------------
+*/
+
+    /* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+let words=['Apple', 'Ball','Cat','Dog','Elephant'];
+for(let i=0; i<words.length; i++){
+    console.log(words[i]);
+}
+ এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+/*
+
+-------------------------------------------------
+** Reverse-Retrive items from an Array using While-Loop
+-------------------------------------------------
+*/
+
+/* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+let words=['Apple', 'Ball','Cat','Dog','Elephant'];
+let j=0;
+while(j<words.length){
+    console.log(words[j]);
+    j++;
+}
+এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+
+/*
+-------------------------------------------------
+** Retrive items of an Array
+-------------------------------------------------
+*/
+//Push ==>> পড়তে হবে arrayName.push
+// Pop ==>> পড়তে হবে arrayName.pop
+// Shift ==>> পড়তে হবে arrayName.shift
+// UnShift ==>> পড়তে হবে arrayName.unshift
+
+//************* Using for-loop and UN-SHIFT
+//************* Using for-loop and UN-SHIFT
+
+/* // <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+let numbers=[1,2,3,4,5]
+console.log(numbers);
+let numbersReversed=[];
+for (let i=0; i<numbers.length; i++){
+    numbersReversed.unshift(numbers[i]);
+   //numbers.shift(numbers[i]);
+}
+console.log(numbersReversed);
+//এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+
+//************* Using for-loop and PUSH
+//************* Using for-loop and PUSH
+
+/* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+
+let numbers=[1,2,3,4,5];
+console.log(numbers);
+let numbersReversed=[];
+for (let i=numbers.length-1; i>=0;i--){
+    numbersReversed.push(numbers[i]);
+}
+console.log(numbersReversed);
+
+//এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+
+//************* reverse() function
+//************* reverse() function
+
+ /* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+let numbers=[1,2,3,4,5];
+console.log(numbers);
+numbers.reverse();
+console.log(numbers);
+
+  এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+
+
+/* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+
+এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+
+
+/* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+
+এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+
+
+/* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+
+এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+
+
+
+/* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+
+এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+
 
 
 /* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
