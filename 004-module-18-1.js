@@ -341,8 +341,28 @@ Output:
 'person working hard a am I'
 */
 /* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+const statement = 'I am a hard working person';
+const words = statement.split(" ");
+//console.log(words);
+let reversedWords=words.reverse();
+//console.log(reversedWords);
+let reverseStatement="";
+for (i in reversedWords){
+    reverseStatement=reverseStatement+" "+reversedWords[i];
+}
+console.log(reverseStatement);
+//*******output:  person working hard a am I
+এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+/* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+const statement = 'I am a hard working person';
+const words = statement.split(" ");
+let result="";
+for(i=words.length-1; i>=0; i--){
+    result=result+" "+words[i];
+}
+console.log(result);
 
-//*******output: TomTimTinTik
+//*******output:  person working hard a am I
 এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
 /*
 ---------------------------------------------
