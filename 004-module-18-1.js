@@ -392,7 +392,7 @@ console.log(copy);
 ******** Task 6
 ---------------------------------------------
 Given an array of student objects, print each student’s name and marks.
-
+Input:
 [
   { name: "John", marks: 85 },
   { name: "Alice", marks: 90 }
@@ -401,9 +401,16 @@ Expected ooutput:
 John scored 85
 Alice scored 90
 */
-/* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+///* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
+let arrayofObj=[
+  { name: "John", marks: 85 },
+  { name: "Alice", marks: 90 }
+];
+for(i in arrayofObj){
+console.log(arrayofObj[i].name+" scored "+arrayofObj[i].marks);
+}
 
-এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
+//এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
 /*
 ---------------------------------------------
 ******** Task 7
