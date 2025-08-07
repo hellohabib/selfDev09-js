@@ -369,15 +369,23 @@ console.log(result);
 ******** Task 5
 ---------------------------------------------
 Copy the given array into another array so that changing the copy does not affect the original.Change the first element of the copied array to 99.
-
-Input: [1, 2, 3]
-
+Input: 
+[1, 2, 3]
 Expected Output:
-
-Original: [1, 2, 3] Copy: [99, 2, 3]
+Original: [1, 2, 3] 
+Copy: [99, 2, 3]
 */
 /* <<== এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে
-
+let original=[1,2,3];
+let copy=[];
+for(i in original){
+    copy.unshift(original[i]);    
+}
+console.log(original);
+console.log(copy);
+copy[0]=99;
+console.log(original);
+console.log(copy);
 এই কমেন্ট উঠাইয় দিয়ে প্রাক্টিস করতে হবে ==>> */
 /*
 ---------------------------------------------
