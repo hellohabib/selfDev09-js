@@ -81,6 +81,7 @@ function countZero(aa){
     }
     return count;
 }
+    
 let myStr="0101100101001";
 let output=countZero(myStr);
 console.log(output);
