@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Module-24</title>
+</head>
+<body>
+    <header>
+        <h1>This is Heading one</h1>
+    </header>
+    <main>
+        <section>
+            
+        <h1>DOM: Starting with jsDOM</h1>
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>Fifth</li>
+        </ul>
+        </section>
+        <section>
+            <!-- ul>li*7 -->
+             <h1 id="food-list">Food items i like</h1>
+            <ul>
+                <li>Rice</li>
+                <li>Potato</li>
+                <li>Fish</li>
+                <li>Vegetable</li>
+                <li>Meet</li>
+                <li>Apple</li>
+                <li>Tea</li>
+            </ul>
+        </section>
+    </main>
+    <script>
+        const elementsbyID=document.getElementById("food-list");
+        //console.log(elementsbyID);
+        elementsbyID.innerText ="Food for good life";
+
+
+        // getElementsByTagName
+        /*
+        const h1Collections=document.getElementsByTagName("h1");
+        for (const h1 of h1Collections){
+            console.log(h1.innerText);
+        }
+*/
+
+        /*
+        const liCollections = document.getElementsByTagName("li");
+        console.log(liCollections);
+        for (const li of liCollections){
+            console.log(li.innerText);
+        }
+            */
+
+        // console.log("Exploring DOM");
+        // function
+        const student={
+            name:"Abul Mia",
+            id:123,
+            study: function(subject){
+                console.log("studying subject: ",subject);
+            }
+        }
+
+    </script>
+    <script src="./js/hello.js"></script>
+</body>
+</html>
