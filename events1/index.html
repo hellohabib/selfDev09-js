@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events-Module-25</title>
+</head>
+<body>
+    <h1>Exploring Events</h1>
+
+    <!-- Option-4 for Click Event Handler: addEventListener -->
+    <h2>Option-4 addEventListener </h2>
+    <button id="btn-mk-gold">Make Gold</button>
+    <button id="btn-mk-green">Make Green</button>
+    <script>
+        document.getElementById('btn-mk-gold')
+            .addEventListener('click',function(){
+                document.body.style.backgroundColor='gold';
+            })
+    </script>
+
+    <!-- Option-3 for Click Event Handler: getElementByID then set to a function -->
+    <h2>Option-3 getElementByID then set to a function</h2>
+    <button id="btn-mk-purple">Make Purple</button>
+    <button id="btn-mk-blue">Make Blue</button>
+    
+    <!-- Option-2 for Click Event Handler -->
+    <h2>Option-2 for Click Event Handler</h2>
+    <button onclick="makeYellow()">Make Yellow</button>
+    <button onclick="makeRed()">Make Red</button>
+    
+
+    <!-- Option-1 for Click Event Handler -->
+    <h2>Option-1 for Click Event Handler</h2>
+    <button onclick="console.log(7)">Click Me</button>
+    <button onclick="console.log('Show me after click')">String console log</button>
+
+
+
+
+    <script src="./js/events.js"></script>
+    
+</body>
+</html>
