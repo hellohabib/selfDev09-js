@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-Module-25-6</title>
+    <style>
+        button, input, h2{
+            padding:15px;
+            width: 400px;
+            margin: 10px 40px 0px 80px;
+            background-color:azure;
+        }
+        button:hover{
+            background-color:darkkhaki;
+        }
+    </style>
+</head>
+<body>
+    <!-- Github Delete Repository Implementation -->
+    <h1>Github Delete Repository Implementation</h1>
+
+    <h2>Delete my repo named below:</h2>
+    <h2 id="repo-nm">js-repo</h2>
+    <input id="input-del" type="text" placeholder="To Delete your repo, enter the exact repo name"><br>
+    <button id="btn-del" disabled>Delete Now</button>
+    <script>
+        document.getElementById('input-del')
+        .addEventListener('keyup',function(event){
+            const typed=event.target.value;
+            const btnDel=document.getElementById('btn-del');
+            if(typed==='js-repo'){
+                btnDel.removeAttribute('disabled');
+            }
+            else {
+                btnDel.setAttribute('disabled',true);
+            }
+        })
+        document.getElementById('btn-del')
+        .addEventListener('click',function(){
+            document.getElementById('repo-nm').innerText='Repo Deleted';    
+            document.getElementById('input-del').value=" ";
+        })
+
+    </script>
+
+
+
+    <!-- <button id="btn-example">Example Button</button><br>
+    <input type="text" name="" id="input-email" placeholder="enter email">
+    <input type="text" name="" id="input-name" placeholder="enter name"> -->
+       
+    <script>
+        // key-up
+        document.getElementById('input-email')
+        .addEventListener('keyup', function(event){
+            console.log('User is typing: ',event.target.value); // event: কোন ইভেন্ট হচ্ছে তার বিস্তারিত taget: কোথায় ইভেন্ট হচ্ছে  value: ইভেন্টের স্পেসিক ভ্যালু 
+        })
+
+    </script>
+</body>
+</html>
