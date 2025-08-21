@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegation</title>
+</head>
+<body>
+    <h2>Explore Event Delegate</h2>
+    <!-- ol>li.li-item*6{My Awesome Item - $} -->
+    <ol>
+        <li class="li-item">My Awesome Item - 1</li>
+        <li class="li-item">My Awesome Item - 2</li>
+        <li class="li-item">My Awesome Item - 3</li>
+        <li class="li-item">My Awesome Item - 4</li>
+        <li class="li-item">My Awesome Item - 5</li>
+        <li class="li-item">My Awesome Item - 6</li>
+    </ol>
+    <script>
+        const items=document.getElementsByClassName('li-item');
+        for(const item of items){
+            item.addEventListener('click',function(event){
+                console.log(event.target.parentNode); // যে আইটেমের ইভেন্টের উপর addEventListener করা হয়েছে তার প্যারেন্ট আইটেম দেখানোর জন্য event.target.parentNode
+            })
+        }        
+    </script>
+</body>
+</html>
+<!-- 
+        const items=document.getElementsByClassName('li-item');
+        for(const item of items){
+            item.addEventListener('click',function(event){
+                console.log(event.target); // যে আইটেমের ইভেন্টের উপর addEventListener করা হয়েছে তা দেখানোর জন্য event.target
+            })
+        }    -->
